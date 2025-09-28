@@ -1,0 +1,11 @@
+{
+  "best_value": 0.7030225246238894,
+  "best_params": {
+    "lr": 0.001334918534679626,
+    "weight_decay": 3.2623637700045447e-06,
+    "dropout_fc": 0.20529172700575005,
+    "optimizer": "AdamW",
+    "batch_size": 32,
+    "epochs": 7
+  }
+}
