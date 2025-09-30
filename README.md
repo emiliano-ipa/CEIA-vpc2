@@ -28,7 +28,9 @@ Los objetivos específicos fueron:
 ## 📂 Notebooks principales
 
 ### 1. `01_EDA.ipynb` y `01.1_balance_check.ipynb`  
-**Objetivo:** realizar un análisis exploratorio del dataset (EDA) y verificar el balance de clases.  
+**Objetivo:** 
+
+Realizar un análisis exploratorio del dataset (EDA) y verificar el balance de clases.  
 
 **Resultados esperados:**  
 - Confirmar si el dataset estaba balanceado o no.
@@ -43,6 +45,10 @@ Los objetivos específicos fueron:
 ---
 
 ### 2. `02_Baseline_and_Optimized.ipynb`  
+**Objetivo:** 
+
+Comparar distintos enfoques de clasificación para establecer una progresión desde un baseline simple hasta un modelo optimizado, y evaluar cómo el uso de **transfer learning** y la **optimización de hiperparámetros** impactan en la performance del modelo.
+
 **Estrategia:**  
 - **Baseline clásico:** extracción de histogramas de color y entrenamiento de una **regresión logística**.  
 - **Baseline CNN:** uso de **ResNet18 pre-entrenada** con capas congeladas (solo se entrena el clasificador).  
@@ -62,6 +68,7 @@ Los objetivos específicos fueron:
 
 ### 3. `03_YOLO.ipynb`  
 **Objetivo:**  
+
 Explorar un modelo distinto reestructurando el dataset en formato YOLO y evaluando **YOLOv8** para clasificación.  
 
 **Justificación de la generación de datasets aparte:**  
